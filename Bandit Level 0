@@ -1,0 +1,29 @@
+Level 0 contains how to connect to the challege server to solve the challenge.
+We use SSH to connect to the challenge server.
+whatis SSH ->(SSH client) is a program for logging into a remote machine and for executing commands on a remote machine.
+here our host server will be bandit.labs.overthewire.org which will listen us on port-2220
+our username will be the bandit level eg for bandit 0 it will be bandit0.
+
+how to connect to the bandit0 server 🤔
+
+venom@venom:~$ ssh -p 2220 bandit0@bandit.labs.overthewire.org
+then it will ask for password put there = bandit0
+
+In the bandit0 server there is file called readme. So to see the contents in the file we will just use CAT command
+bandit0@bandit:~$ cat readme
+ 
+then in the next line a flag will appear 🙂
+Congratulations!!🤪 that flag is the password for next level 😎
+
+FLAG will be of random characters don't worry 🙂 just copy...
+
+Commands:-
+1) SSH : (SSH client) is a program for logging into a remote machine and for executing commands on a remote machine.
+         
+venom@venom:~$ ssh -p 2220 bandit0@bandit.labs.overthewire.org
+          
+2) CAT : concatenate files and print on the standard output
+
+bandit0@bandit:~$ cat readme
+
+      
