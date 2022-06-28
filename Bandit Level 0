@@ -26,4 +26,5 @@ venom@venom:~$ ssh -p 2220 bandit0@bandit.labs.overthewire.org
 
 bandit0@bandit:~$ cat readme
 
-note: To exit from the connected server type exit and hit enter
+note1: To exit from the connected server type exit and hit enter
+note2: If you don't get anything about a program use man command it displays the manual page of the command :)
