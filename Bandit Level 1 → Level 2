@@ -1,0 +1,27 @@
+#Link: https://overthewire.org/wargames/bandit/bandit2.html
+
+Level Goal:
+The password for the next level is stored in a file called - located in the home directory
+
+Approach:
+First connect to the bandit1 server using ssh,
+
+venom@venom:~$ ssh -p 2220 bandit1@bandit.labs.overthewire.org
+
+after this it will ask for the password, paste the flag(password) that we got from bandit0.
+
+So now we are connected to the bandit1 server using SSH.
+
+now as said in the challenge the password is in the file who's name is -, here if we try to cat the contents directly cat -, it will not run.
+
+so we use ./ before -, dot and forward slash are like the esacpe sequnce charaters 
+
+bandit1@bandit:~$ cat ./-
+
+next line of random character is the password for the next level bandit2 :)
+
+
+
+
+
+
